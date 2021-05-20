@@ -1,13 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
+  selector: 'app-contato',
+  template: `
+    <p>
+      contato works!
+    </p>
+  `,
   styles: [
-    "src/styles.css",
   ]
 })
-export class HomeComponent implements OnInit {
+export class ContatoComponent implements OnInit {
 
   constructor() { }
 
